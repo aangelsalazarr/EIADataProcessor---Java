@@ -7,7 +7,7 @@ public class eiaOpenDataRequestFramework {
 		
 		
 		// purpose is to create a variable apiKey that holds the api Key
-		String apiKey = "45fc211dc417f6b7a53609c99ab0546a";
+		String apiKey = "insert_api_key_here";
 		
 		// purpose is to create a list or array of series_id that can be used
 		List <String> seriesID = new ArrayList <String>();
