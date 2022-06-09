@@ -19,37 +19,37 @@ public class DataMerger {
 		List <String> urlList = new ArrayList <String>();
 		
 		// us crude oil production data
-		urlList.add("https://api.eia.gov/series/?api_key=45fc211dc417f6b7a53609c99ab0546a&series_id=STEO.COPRPUS.M");
+		urlList.add("https://api.eia.gov/series/?api_key=insert_api_key&series_id=STEO.COPRPUS.M");
 		
 		// electricity pricing data
-		urlList.add("https://api.eia.gov/series/?api_key=45fc211dc417f6b7a53609c99ab0546a&series_id=STEO.ESTCU_US.M");
+		urlList.add("https://api.eia.gov/series/?api_key=insert_api_key&series_id=STEO.ESTCU_US.M");
 		
 		// energy expenditure data
-		urlList.add("https://api.eia.gov/series/?api_key=45fc211dc417f6b7a53609c99ab0546a&series_id=TOTAL.TEGDSUS.A");
+		urlList.add("https://api.eia.gov/series/?api_key=insert_api_key&series_id=TOTAL.TEGDSUS.A");
 		
 		// industrial commercial solar generation
-		urlList.add("https://api.eia.gov/series/?api_key=45fc211dc417f6b7a53609c99ab0546a&series_id=STEO.SOCHGEN_US.M");
+		urlList.add("https://api.eia.gov/series/?api_key=insert_api_key&series_id=STEO.SOCHGEN_US.M");
 		
 		// renewable energy consumption data
-		urlList.add("https://api.eia.gov/series/?api_key=45fc211dc417f6b7a53609c99ab0546a&series_id=STEO.RETCBUS.M");
+		urlList.add("https://api.eia.gov/series/?api_key=insert_api_key&series_id=STEO.RETCBUS.M");
 		
 		// small scale solar capacity data
-		urlList.add("https://api.eia.gov/series/?api_key=45fc211dc417f6b7a53609c99ab0546a&series_id=STEO.SODTC_US.M");
+		urlList.add("https://api.eia.gov/series/?api_key=insert_api_key&series_id=STEO.SODTC_US.M");
 		
 		// solar net summer capacity data
-		urlList.add("https://api.eia.gov/series/?api_key=45fc211dc417f6b7a53609c99ab0546a&series_id=STEO.SOEPCAPX_US.M");
+		urlList.add("https://api.eia.gov/series/?api_key=insert_api_key&series_id=STEO.SOEPCAPX_US.M");
 		
 		// total energy carbon emissions data
-		urlList.add("https://api.eia.gov/series/?api_key=45fc211dc417f6b7a53609c99ab0546a&series_id=STEO.TETCCO2.M");
+		urlList.add("https://api.eia.gov/series/?api_key=insert_api_key&series_id=STEO.TETCCO2.M");
 		
 		// total primary energy consumption data
-		urlList.add("https://api.eia.gov/series/?api_key=45fc211dc417f6b7a53609c99ab0546a&series_id=TOTAL.TETCBUS.M");
+		urlList.add("https://api.eia.gov/series/?api_key=insert_api_key&series_id=TOTAL.TETCBUS.M");
 		
 		// total primary energy production data
-		urlList.add("https://api.eia.gov/series/?api_key=45fc211dc417f6b7a53609c99ab0546a&series_id=TOTAL.TEPRBUS.M");
+		urlList.add("https://api.eia.gov/series/?api_key=insert_api_key&series_id=TOTAL.TEPRBUS.M");
 		
 		// total renewable energy production data
-		urlList.add("https://api.eia.gov/series/?api_key=45fc211dc417f6b7a53609c99ab0546a&series_id=TOTAL.REPRBUS.M");
+		urlList.add("https://api.eia.gov/series/?api_key=insert_api_key&series_id=TOTAL.REPRBUS.M");
 		
 		// here we want to automate a process where we create a list of given series_id and the api key
 		
